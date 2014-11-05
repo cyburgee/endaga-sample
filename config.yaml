@@ -1,0 +1,3 @@
+output:     JSON                        # Output type. Choices are "STDOUT" and "JSON", the latter of which sends JSON formatted reports to the report_url
+report_url: "http://localhost:8000"     # URL which to send JSON status updates, if enabled.
+speedup:    100                        # Simulation speedup. 1=realtime. 100 is 100x faster than realtime.
