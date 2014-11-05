@@ -1,6 +1,6 @@
 README
 
-I chose to use a Google Earth visualization in order to present the data in a manner that is very identifiable.  
+I chose to use a Google Earth visualization in order to present the data in a manner that is very identifiable.
 
 Fortunately there existed a python library to easily create the KML files used by Google Earth. From there it was relatively simple to receive and parse simulation data with a Python http server and encode the data in a KML. I also added some ways to parse get requests to display the data and serve up the kml files. 
 
@@ -13,18 +13,18 @@ Install dependency simplekml:
 pip install simplekml
 ```
 
-start up the server:
+Start up the server. I changed the server and config.yaml to use port 8000:
 ```bash
 python server.py
 ```
 
-run the simulation:
+Run the simulation:
 ```bash
 ./sim.bash
 ```
 
-View the visualization in firefox:
+View the visualization in Firefox:
 http://localhost:8000/
 
-The visualization provides links to download the google earth browser plugin. You will probably have to adjust the time span in the embedded earth viewer in order to see the data.
+The visualization provides links to download the Google Earth Browser plugin. You will probably have to adjust the time span in the embedded earth viewer in order to see the data.
 From there, the visualization will update every 30 seconds automatically.
