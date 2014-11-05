@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_2">
+        <Document id="feat_3">
+            <name>Phone Signal Strength</name>
+            <visibility>1</visibility>
+            <open>1</open>
+            <LookAt>
+                <longitude>-122.253924</longitude>
+                <latitude>37.816817</latitude>
+                <range>10000</range>
+            </LookAt>
+            <NetworkLink id="feat_4">
+                <name>Phone Signal Strength Link</name>
+                <visibility>1</visibility>
+                <open>1</open>
+                <Snippet maxLines="1">Cellular network signal strengths. Gets updates every 30 seconds.</Snippet>
+                <Link id="link_0">
+                    <href>http://localhost:8000/phones.kml</href>
+                    <refreshMode>onInterval </refreshMode>
+                    <refreshInterval>30</refreshInterval>
+                </Link>
+            </NetworkLink>
+        </Document>
+    </Document>
+</kml>
